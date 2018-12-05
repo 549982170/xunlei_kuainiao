@@ -1,7 +1,15 @@
 # xunlei_kuainiao
 用于linux使用迅雷快鸟加速
 # 快速入门
-* 同目录下新建 swjsq.account.txt，填入`用户名,密码`，如`ahaha,123456`（英文逗号），并保存
-* python ./swjsq.py &
-或者执行xunlei_kuainiao.sh
-### 能安装Python的路由器
+1.config目录下新建 config.json文件，填入
+{
+  "username": "你的帐号",
+  "password": "你的密码"
+}
+并保存
+
+2.运行
+执行 python ./swjsq.py &
+
+#备注条件
+能安装Python的路由器
