@@ -4,7 +4,11 @@
 1.config目录下新建 config.json文件，填入
 {
   "username": "你的帐号",
-  "password": "你的密码"
+  "password": "你的密码",
+  "route_host": "路由IP",
+  "route_port": "路由端口",
+  "route_username": "路由帐号",
+  "route_password": "路由密码"
 }
 并保存
 
